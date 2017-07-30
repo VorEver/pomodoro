@@ -1,0 +1,49 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+	<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/segment7" type="text/css"/>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="script.js"></script>
+</head>
+
+<body>
+	<div class="container text-center">
+  	<div class="title">
+    	<h1>POMODORO CLOCK</h1>
+    	<p>created by j-mag guthrie<br /> a <a href="http://freecodecamp.org" target="_blank">FreeCodeCamp</a> project</p>
+  	</div> <!-- title -->
+
+  	<div class="widgets">
+    	<div id="bBox">
+      	<h3>BREAK<br />LENGTH</h3>
+      	<div id="bWidget">
+        	<button class="myBtn" id="bMinus">&#150;</button>
+        	<p id="bSet">&nbsp;05&nbsp;</p>
+        	<button class="myBtn" id="bPlus">+</button>
+      	</div> <!-- bWidget -->
+    	</div> <!-- bBox -->
+    	<div id="wBox">
+      	<h3>WORK<br />LENGTH</h3>
+      	<div id="wWidget">
+        	<button class="myBtn" id="wMinus">&#150;</button>
+        	<p id="wSet">&nbsp;25&nbsp;</p>
+        	<button class="myBtn" id="wPlus">+</button>
+      	</div> <!-- wWidget -->
+    	</div> <!-- wBox -->
+  	</div> <!-- widgets -->
+
+  	<div class="clock text-center">
+    	<h1 id="clockType">WORK</h1>
+    	<h1 id="time">25:00</h1>
+    	<h4 id="alarm"></h4>
+    	<p><button id="startMe">START</button><button id="stopMe">STOP</button></p>
+  	</div> <!-- clock -->
+	</div> <!-- container -->
+</body>
+</html>
