@@ -6,6 +6,6 @@ This is a simple clock to utilize the pomodoro technique of setting a fixed of t
 
 This clock may be set up one hour for either period or down to one minute.
 
-https://baseballpoetess.github.io/pomodoro/
+https://VorEver.github.io/pomodoro/
 
 
