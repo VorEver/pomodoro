@@ -4,7 +4,7 @@ $(document).ready(function (){
   var workLength = 25;
   var breakLength = 5;
   var myTimer;
-  var alarmSound ='<audio src="http://astroannie.com/my_images/sounds/myBeeps.mp3" autoplay>BEEP! BEEP! BEEP! BEEP! BEEP!</audio>';
+  var alarmSound ='<audio src="http://ajvoraman.com/assets/sounds/microwave-beep.wav" autoplay>BEEP! BEEP! BEEP! BEEP! BEEP!</audio>';
   var silence = "";
   var isRunning = false;
   $("#bMinus").on("click",function(){
